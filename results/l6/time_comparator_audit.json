@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "conditions": 160,
+  "branches": 320,
+  "independent_algorithm": "NumPy PSD/Toeplitz, Decimal Gaussian elimination, scalar recurrence, damped Fourier sum",
+  "archived_code_executed": false,
+  "max_periodic_metric_difference": 1.353811507343039e-11,
+  "max_period_mass_difference": 2.220446049250313e-16,
+  "fixed_eta": 0.2,
+  "recurrence_length": 512,
+  "theoretical_tail_bound_if_positive_measure": 9.715752462382382e-23,
+  "min_spectrum": 0.0044456755313248275
+}

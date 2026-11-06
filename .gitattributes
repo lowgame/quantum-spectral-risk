@@ -1,0 +1,4 @@
+data/*.zip binary
+results/**/*.npz binary
+*.py text eol=lf
+*.md text eol=lf

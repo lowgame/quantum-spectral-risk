@@ -1,0 +1,16 @@
+[
+  {
+    "file": "L6_mechanism.zip",
+    "rows": 800,
+    "status": "PASS",
+    "conditions_completed": 160,
+    "scientific_protocol_sha256": "0b1dcd886c8af1ab0525737e1264a2d0604fb0dbe53811ad8ef4ad9693b3045d"
+  },
+  {
+    "file": "L8_validation.zip",
+    "rows": 480,
+    "status": "PASS",
+    "conditions_completed": 80,
+    "scientific_protocol_sha256": "30f93e58a92245cb8af2964e751d9f3d8686ba00ee1c7971c18fc74cad634495"
+  }
+]

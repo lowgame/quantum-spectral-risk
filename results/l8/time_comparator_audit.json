@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "max_curve_difference": {
+    "same_data_curve": 3.786609914513406e-12,
+    "regenerated_full_budget_curve": 2.442226976206996e-11
+  },
+  "minimum_branch_spectrum": 0.0044868963192062775,
+  "maximum_branch_period_mass_error": 2.220446049250313e-16,
+  "local_torch": "2.10.0+cpu",
+  "modes_evaluated": 512,
+  "direct_solve_decimal_digits": 70,
+  "full_budget_original_raw_missing": true,
+  "full_budget_outcomes_recreated_from_seeds": true,
+  "new_independent_measurement_trials": 0,
+  "seconds": 27.969026192,
+  "scope": "NumPy projection + mpmath direct solve + scalar series, unlike the archived Levinson/Schur evaluator. Full-budget measurements were not stored, but reconstructed deterministic local binomial draws reproduce saved spectra when error <1e-7. This is not recovery of a contemporaneous original raw record."
+}

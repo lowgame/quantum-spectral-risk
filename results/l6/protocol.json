@@ -1,0 +1,66 @@
+{
+  "version": "0.8c.0-holdout-controlled-structure",
+  "suite": "mechanism",
+  "L": 6,
+  "U": 7.0,
+  "steps": [
+    0.125,
+    0.25
+  ],
+  "budgets": [
+    10000000,
+    100000000,
+    1000000000,
+    10000000000
+  ],
+  "seeds": [
+    8100,
+    8101,
+    8102,
+    8103,
+    8104,
+    8105,
+    8106,
+    8107,
+    8108,
+    8109,
+    8110,
+    8111,
+    8112,
+    8113,
+    8114,
+    8115,
+    8116,
+    8117,
+    8118,
+    8119
+  ],
+  "ranks": [
+    6,
+    10,
+    14
+  ],
+  "starts": 2,
+  "milestones": [
+    0,
+    100,
+    350,
+    700,
+    1400
+  ],
+  "train_fraction": 0.8,
+  "optimizer_restart_at_each_block": true,
+  "main_metric": "physical nonperiodic L1 on [-12,12]",
+  "rival_metric": "separate periodic physical L1; time-only spectrum not unfolded",
+  "source_E0": "exact, common, preparation uncharged",
+  "eta": 0.2,
+  "spacing": 0.5,
+  "general_contains_all_diagonal_candidates": true,
+  "no_refit_after_selection": true,
+  "selection": "minimum held-out binomial deviance; no true spectrum",
+  "maximum_depth": "fixed per product-step stratum; no unrestricted optimal-resource claim",
+  "code_sha256": "a76d41366191d0464e52338d067c522353136476c4f3d210971dc05e35f1bd73",
+  "core_sha256": "519d65fd8774f49dc562e6fb733302ab96a8082fe52071edfc07ff125d483306",
+  "rival_sha256": "05f9e41d768c2d4b337801a2f6e8e8079d09d7e42841fccd6b3ef9f2a745f465",
+  "protocol_sha256": "0b1dcd886c8af1ab0525737e1264a2d0604fb0dbe53811ad8ef4ad9693b3045d"
+}

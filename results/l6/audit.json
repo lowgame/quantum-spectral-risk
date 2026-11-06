@@ -1,0 +1,59 @@
+{
+  "input_sha256": "b5c3a8dea638a1f2eefc7631ffde0c67442739d0cd88cc91d40f448921eb718a",
+  "archive_crc_pass": true,
+  "archived_code_executed": false,
+  "new_training": false,
+  "new_measurement_draws": false,
+  "reference_recomputed": true,
+  "summary": {
+    "status": "PASS",
+    "conditions_completed": 160,
+    "rows": 800,
+    "protocol_sha256": "0b1dcd886c8af1ab0525737e1264a2d0604fb0dbe53811ad8ef4ad9693b3045d",
+    "seconds_this_session": 11309.148910378004,
+    "scope": "new controlled development; no pre-established superiority",
+    "evaluation_revision": "8c-schur-cpu-dot-2",
+    "evaluation_runner_sha256": "bd22f0b4e0501a9d527f09f05d3bd72127d33fd9617c77bfdc390b8a88294ed9",
+    "original_training_protocol_sha256": "0b1dcd886c8af1ab0525737e1264a2d0604fb0dbe53811ad8ef4ad9693b3045d"
+  },
+  "preserved_file_count": 26,
+  "protocol_hash": "0b1dcd886c8af1ab0525737e1264a2d0604fb0dbe53811ad8ef4ad9693b3045d",
+  "physical_reference": {
+    "E0": -22.988778866822273,
+    "window_mass": 0.9880002795011382,
+    "period_mass": 1.000000000000012
+  },
+  "raw_files": 320,
+  "fit_files": 3840,
+  "candidate_records": 19200,
+  "selected_records": 640,
+  "max_errors": {
+    "frequency_grid": 3.552713678800501e-15,
+    "physical_reference_curve": 4.191091917959966e-15,
+    "condition_metric_csv": 9.71445146547012e-17,
+    "curve_integrated_metric": 7.771561172376096e-16,
+    "integer_count_roundoff": 4.656612873077393e-10,
+    "source_metadata": 1.887379141862766e-15,
+    "training_deviance": 1.1102230246251565e-16,
+    "selection_deviance": 1.1102230246251565e-16,
+    "nested_embedding_forward": 5.551115123125783e-16,
+    "recomputed_spectrum": 2.4119595209981526e-14,
+    "latent_periodic_metric": 1.0380585280245214e-14
+  },
+  "archived_extension_checks": {
+    "count": 320,
+    "min_spectrum": 0.004445675531324878,
+    "max_period_mass_error": 2.220446049250313e-16,
+    "max_linear_residual": 1.2902758729754585e-14
+  },
+  "archived_repair_preflight": {
+    "two_pole_error": 2.3810338395097706e-10,
+    "native_dot_error": 2.7551866714666957,
+    "old_fit_files": 24,
+    "old_fit_record_count": 120
+  },
+  "training_blocks": 15360,
+  "blocks_at_cap": 7604,
+  "training_seconds_recorded": 11206.268889612475,
+  "status": "PASS"
+}

@@ -1,0 +1,99 @@
+{
+  "ground_E0": -30.723099902512985,
+  "ground_residual": 6.210133314980804e-14,
+  "cached_E0_difference": 4.263256414560601e-14,
+  "ground_gap_numerical": 0.2075883265068157,
+  "source": "independent sparse generic-fermionic construction; numerical reference, not global certificate",
+  "branches": [
+    {
+      "dimension": 3920,
+      "source_norm_squared": 0.500000000000002,
+      "response": [
+        {
+          "m": 480,
+          "conditional_resolvent_bound": 4.0345326767233146e-05,
+          "spectral_change": null,
+          "periodic_change": null
+        },
+        {
+          "m": 720,
+          "conditional_resolvent_bound": 2.222660276413915e-07,
+          "spectral_change": 3.2813192267500124e-12,
+          "periodic_change": 3.2799882601630692e-12
+        },
+        {
+          "m": 960,
+          "conditional_resolvent_bound": 1.3147132528837831e-09,
+          "spectral_change": 8.881784197001252e-16,
+          "periodic_change": 2.7755575615628914e-15
+        }
+      ],
+      "steps": {
+        "0.125": {
+          "matrix_max_differences": {
+            "S": 1.1429804339904223e-13,
+            "T": 4.873957096569542e-13,
+            "f": 5.817856824491098e-14
+          },
+          "measurement_max_difference": 1.142419492339286e-13
+        },
+        "0.25": {
+          "matrix_max_differences": {
+            "S": 1.1466950280123043e-13,
+            "T": 4.729317870583936e-13,
+            "f": 5.2376948049344493e-14
+          },
+          "measurement_max_difference": 1.060748711090298e-13
+        }
+      }
+    },
+    {
+      "dimension": 3920,
+      "source_norm_squared": 0.5000000000000002,
+      "response": [
+        {
+          "m": 480,
+          "conditional_resolvent_bound": 4.174867857916507e-05,
+          "spectral_change": null,
+          "periodic_change": null
+        },
+        {
+          "m": 720,
+          "conditional_resolvent_bound": 2.1525830275495903e-07,
+          "spectral_change": 3.269848042504464e-12,
+          "periodic_change": 3.303929178855025e-12
+        },
+        {
+          "m": 960,
+          "conditional_resolvent_bound": 1.226806698774555e-09,
+          "spectral_change": 1.457167719820518e-15,
+          "periodic_change": 3.0531133177191805e-15
+        }
+      ],
+      "steps": {
+        "0.125": {
+          "matrix_max_differences": {
+            "S": 1.2232691960165048e-13,
+            "T": 4.0961695161368623e-13,
+            "f": 8.547719314785845e-14
+          },
+          "measurement_max_difference": 1.220135104063047e-13
+        },
+        "0.25": {
+          "matrix_max_differences": {
+            "S": 1.434774406983526e-13,
+            "T": 5.335921856802036e-13,
+            "f": 7.290413396410909e-14
+          },
+          "measurement_max_difference": 1.2273515537231106e-13
+        }
+      }
+    }
+  ],
+  "new_random_measurements": 0,
+  "new_training": 0,
+  "status": "PASS",
+  "physical_curve_max_difference": 5.6371574075342323e-14,
+  "periodic_curve_max_difference": 5.728750807065808e-14,
+  "seconds": 3.5359175510000114
+}

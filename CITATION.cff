@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this computational archive and the associated manuscript when using these data."
+type: dataset
+title: "Structural regularization and spectral risk in quantum subspace reconstruction: computational archive"
+authors:
+  - family-names: "Çivi"
+    given-names: "Ahmet Kamer"
+    affiliation: "Department of Physics, Middle East Technical University, 06800 Ankara, Turkey"
+    email: "kamer.civi@metu.edu.tr"
+version: "0.7"
+date-released: "2026-11-05"
+keywords:
+  - quantum subspace methods
+  - spectral reconstruction
+  - structural regularization
+  - Hubbard model
+  - finite-shot measurements

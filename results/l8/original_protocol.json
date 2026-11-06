@@ -1,0 +1,72 @@
+{
+  "version": "0.9.0-L8-frozen-validation",
+  "suite": "validation",
+  "L": 8,
+  "U": 7.0,
+  "steps": [
+    0.125,
+    0.25
+  ],
+  "budgets": [
+    100000000,
+    1000000000
+  ],
+  "seeds": [
+    9200,
+    9201,
+    9202,
+    9203,
+    9204,
+    9205,
+    9206,
+    9207,
+    9208,
+    9209,
+    9210,
+    9211,
+    9212,
+    9213,
+    9214,
+    9215,
+    9216,
+    9217,
+    9218,
+    9219
+  ],
+  "ranks": [
+    6,
+    10,
+    14
+  ],
+  "starts": 2,
+  "milestones": [
+    0,
+    100,
+    350,
+    700,
+    1400
+  ],
+  "training_fraction": 0.8,
+  "refit_after_selection": false,
+  "eta": 0.2,
+  "spacing": 0.5,
+  "input_states_per_branch": 24,
+  "same_estimators_as_experiment8": true,
+  "source_and_E0": "Converged numerical ground/source; preparation cost excluded; ideal gates.",
+  "selection": "Held-out binomial loss only; no spectral truth.",
+  "time_only_controls": [
+    "same archived overlaps",
+    "all B reassigned to 46 overlap settings per branch"
+  ],
+  "time_metric": "periodic physical spectrum only; never interpreted as unaliased full spectrum",
+  "pilot_not_confirmation": true,
+  "hashes": {
+    "spektrum_dogrulama9.py": "fed48029a4e73dc025075e89e8c2066e619b8557c2bcee3e675042a1e19c0b02",
+    "hubbard_mf9.py": "bdc9de2eddd772c86ad047cd2e7e6457623eac645974a39576051c78710e7e72",
+    "numerical8_verified.py": "bd22f0b4e0501a9d527f09f05d3bd72127d33fd9617c77bfdc390b8a88294ed9",
+    "core6.py": "519d65fd8774f49dc562e6fb733302ab96a8082fe52071edfc07ff125d483306",
+    "spektrum_mekanizma8.py": "a76d41366191d0464e52338d067c522353136476c4f3d210971dc05e35f1bd73",
+    "spektrum_rakip8b.py": "05f9e41d768c2d4b337801a2f6e8e8079d09d7e42841fccd6b3ef9f2a745f465"
+  },
+  "protocol_sha256": "30f93e58a92245cb8af2964e751d9f3d8686ba00ee1c7971c18fc74cad634495"
+}

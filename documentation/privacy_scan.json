@@ -1,0 +1,5 @@
+{
+  "text_members_scanned": 7948,
+  "scope": "known private IPv4/local paths and common token/private-key patterns; not a universal secret scan",
+  "findings": []
+}

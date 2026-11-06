@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "cases": 80,
+  "new_shots": 0,
+  "new_fits": 0,
+  "tests": {
+    "frozen_jacobian_max_relative_fd_error": 9.995461130501453e-10,
+    "linear_target_identity_error": 3.552713678800501e-15
+  },
+  "limits": {
+    "eta": 0.2,
+    "scoring_grid": [
+      -12,
+      12,
+      241
+    ],
+    "evaluation_grid": [
+      -12,
+      12,
+      2401
+    ],
+    "input_sha256": "bed954d458dd3d763f2589018024897dece63ecbeb48ef9f05dcb4e799f2bf7c",
+    "alpha": 0.05,
+    "direction": "raw versus lag-pooled ONLY",
+    "split": "unchanged recorded 80% training;20% selection; no refit",
+    "candidate_fit_and_derivative": "training only",
+    "choices": [
+      "score>0",
+      "score-Hoeffding_radius>0"
+    ],
+    "test_status": "post-hoc exploratory on already inspected L8 data, not held-out validation",
+    "new_shots": 0,
+    "new_model_fits": 0,
+    "derivative": "full S and H, correlated f, frozen rank",
+    "scope": "linearized projected-spectrum risk, not exact physical L1/L2 risk"
+  }
+}

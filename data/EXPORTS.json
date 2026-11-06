@@ -1,0 +1,47 @@
+[
+  {
+    "file": "L6_mechanism.zip",
+    "sha256": "020a7052e41e44f2b92a7be703878c63fcc589b07c50aed7b97973a42f40f226",
+    "bytes": 44816145,
+    "scientific_members": 4810,
+    "removed_members": 4,
+    "redacted_members": 1,
+    "source_archive_sha256": "b5c3a8dea638a1f2eefc7631ffde0c67442739d0cd88cc91d40f448921eb718a"
+  },
+  {
+    "file": "L8_validation.zip",
+    "sha256": "eb58d4549afbaff78d4d7bce52a5e31e9847793e92de435264777e62838b3c4e",
+    "bytes": 31715591,
+    "scientific_members": 2331,
+    "removed_members": 2,
+    "redacted_members": 0,
+    "source_archive_sha256": "bed954d458dd3d763f2589018024897dece63ecbeb48ef9f05dcb4e799f2bf7c"
+  },
+  {
+    "file": "exploratory_latent_L6.zip",
+    "sha256": "4f62c823855db9c1f42a210c86b06c327283def6500b90b6c384f6e8f1374d95",
+    "bytes": 20207719,
+    "scientific_members": 373,
+    "removed_members": 6,
+    "redacted_members": 0,
+    "source_archive_sha256": "dd4805f28495ddb9e1489385040fdb24c0d4317c455a44b53dc98b1f9785ae9f"
+  },
+  {
+    "file": "exploratory_optimization_L6.zip",
+    "sha256": "2025270d11532859945ddf125dd967daaf7ecd49f58c497ebd6b4eb0a97b1c3d",
+    "bytes": 19995768,
+    "scientific_members": 365,
+    "removed_members": 2,
+    "redacted_members": 0,
+    "source_archive_sha256": "b10562db59080b556e0007b291c3a9296684e93bf52fbe9c27c429c198d13873"
+  },
+  {
+    "file": "exploratory_allocation_L6.zip",
+    "sha256": "ecbde2331970add8d859d0a01f26ef9f274839dc8aebd30d51d308a36dc0dea1",
+    "bytes": 238148,
+    "scientific_members": 7,
+    "removed_members": 3,
+    "redacted_members": 0,
+    "source_archive_sha256": "906336350cf5b4850041ecfb566be82e016dcbb448ae77c4a53cc99df4057919"
+  }
+]

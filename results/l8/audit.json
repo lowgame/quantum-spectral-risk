@@ -1,0 +1,85 @@
+{
+  "input": "spektrum_dogrulama9_rapor.zip",
+  "input_sha256": "bed954d458dd3d763f2589018024897dece63ecbeb48ef9f05dcb4e799f2bf7c",
+  "archived_python_executed": false,
+  "new_fits": 0,
+  "new_random_measurements": 0,
+  "bootstrap_samples": 100000,
+  "protocol_sha256": "30f93e58a92245cb8af2964e751d9f3d8686ba00ee1c7971c18fc74cad634495",
+  "archive_member_counts": {
+    "conditions": 80,
+    "raw": 160,
+    "fits": 1920,
+    "curves": 160
+  },
+  "reference_cache_ground": {
+    "first": {
+      "dimension": 4900,
+      "lanczos_dimension": 120,
+      "residual_norm": 1.2151940650416947e-12,
+      "seed": 91273,
+      "global_ground_certified": false
+    },
+    "second": {
+      "dimension": 4900,
+      "lanczos_dimension": 120,
+      "residual_norm": 5.2702599631909715e-12,
+      "seed": 93331,
+      "global_ground_certified": false
+    },
+    "energy_difference": 0.0
+  },
+  "reference_cache_branch_audits": [
+    {
+      "dimension": 3920,
+      "lanczos_dimension": 960,
+      "maximum_resolvent_residual_bound": 1.5168767896709314e-09,
+      "roundoff_allowance": 1.6140719328640543e-12,
+      "periodic_change": 3.2751579226442118e-15,
+      "orthogonality_error": 3.1086244689504383e-15,
+      "relation_error": 1.291257546291322e-13,
+      "source_norm_squared": 0.49999999999996975
+    },
+    {
+      "dimension": 3920,
+      "lanczos_dimension": 960,
+      "maximum_resolvent_residual_bound": 1.5156302079147252e-09,
+      "roundoff_allowance": 1.643197222187411e-12,
+      "periodic_change": 4.08006961549745e-15,
+      "orthogonality_error": 2.886579864025407e-15,
+      "relation_error": 1.314557777749847e-13,
+      "source_norm_squared": 0.5000000000000312
+    }
+  ],
+  "physical_window_mass": 0.9880045140321976,
+  "status": "PASS",
+  "max_absolute_differences": {
+    "cached_poles_to_physical_reference": 5.551115123125783e-16,
+    "cached_poles_to_periodic_reference": 5.551115123125783e-16,
+    "curve_reference": 9.974659986866641e-17,
+    "periodic_curve_reference": 9.8879238130678e-17,
+    "curve_grid": 1.7763568394002505e-15,
+    "binomial_count_roundoff": 5.820766091346741e-11,
+    "training_loss": 1.6653345369377348e-16,
+    "selection_loss": 2.220446049250313e-16,
+    "mass_constraint": 4.440892098500626e-16,
+    "hermiticity": 0.0,
+    "physical_spectrum_from_raw_or_model": 2.5729418595688003e-14,
+    "periodic_model_spectrum": 1.1546319456101628e-14,
+    "metric_from_curves": 1.1102230246251565e-16,
+    "metric_condition_vs_global_csv": 9.71445146547012e-17
+  },
+  "conditions": 80,
+  "results": 480,
+  "model_checkpoints": 9600,
+  "trained_blocks": 7680,
+  "native_cpu_complex_dot_is_bad": 2.7551866714666957,
+  "limits": [
+    "Source and energy reference numerical, preparation excluded; ideal gates.",
+    "Full-budget time-only raw resamples are not archived; their spectra and costs, but not their raw probability samples, can be independently audited here.",
+    "Independent NumPy calculations use the cached numerical reference in this first pass; a separate sparse-Hamiltonian verification is documented separately.",
+    "Analysis family was specified after seeing these data; no prospective preregistration claim.",
+    "Frozen estimator settings extend to L8, but pilot L8/seed9100 had been inspected before validation."
+  ],
+  "audit_seconds": 10.282539766000014
+}

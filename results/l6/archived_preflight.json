@@ -1,0 +1,996 @@
+{
+  "status": "PASS",
+  "tests": {
+    "two_pole_extension_error": 2.3810338395097706e-10,
+    "analytic_fourier_max_error": 1.1966672097685205e-10,
+    "period_mass_error": 0.0,
+    "schur_disk_center_error": 0.0,
+    "extended_gram_minimum_eigenvalue": 0.1774265647986951,
+    "aliased_time_signal_difference": 6.728537760070878e-15,
+    "paper_dimer_G0": 0.28944435850908673,
+    "paper_dimer_density": 0.7105556414909132,
+    "paper_dimer_exact_extension_t10_max_error": 4.6817316065154313e-08,
+    "dimer_new_synthetic_noise": [
+      {
+        "seed": 0,
+        "raw_spectral_L1": 1.6578887417082484,
+        "extended_spectral_L1": 0.12696566261555073,
+        "raw_time_mse": 0.0019982156695418935,
+        "denoised_time_mse": 0.00036244252589621
+      },
+      {
+        "seed": 1,
+        "raw_spectral_L1": 1.6028082175843883,
+        "extended_spectral_L1": 0.5854552496179994,
+        "raw_time_mse": 0.0019382649776086376,
+        "denoised_time_mse": 0.0003656076735276725
+      },
+      {
+        "seed": 2,
+        "raw_spectral_L1": 1.636350107962635,
+        "extended_spectral_L1": 0.10981773737940285,
+        "raw_time_mse": 0.0019798815350510024,
+        "denoised_time_mse": 9.841858527602428e-05
+      },
+      {
+        "seed": 3,
+        "raw_spectral_L1": 1.5564360784758682,
+        "extended_spectral_L1": 0.6513822534940201,
+        "raw_time_mse": 0.0021690947575630187,
+        "denoised_time_mse": 0.0003606869375686162
+      },
+      {
+        "seed": 4,
+        "raw_spectral_L1": 1.6288713774626993,
+        "extended_spectral_L1": 0.3914018773913468,
+        "raw_time_mse": 0.001855173286739676,
+        "denoised_time_mse": 0.00022347675019849234
+      },
+      {
+        "seed": 5,
+        "raw_spectral_L1": 1.6339333122244206,
+        "extended_spectral_L1": 0.3899493489447187,
+        "raw_time_mse": 0.0019398381007382757,
+        "denoised_time_mse": 0.0003173812514518627
+      },
+      {
+        "seed": 6,
+        "raw_spectral_L1": 1.6410233705710675,
+        "extended_spectral_L1": 0.3142882879354871,
+        "raw_time_mse": 0.0019672007112612458,
+        "denoised_time_mse": 8.489048577005868e-05
+      },
+      {
+        "seed": 7,
+        "raw_spectral_L1": 1.7596413581800159,
+        "extended_spectral_L1": 0.5981963187734057,
+        "raw_time_mse": 0.002317414932180108,
+        "denoised_time_mse": 0.0009373027122708143
+      }
+    ],
+    "dimer_test_scope": "Authors thermal model; new synthetic noise, not figure-data replication.",
+    "status": "PASS"
+  },
+  "saved_measurement_checks": [
+    {
+      "raw_file": "L6_U7_step0.125_B10000000_seed8100_branch0.json",
+      "raw_sha256": "8a3f06273f60825cef55fed45560a78e8b19f45a2c8f9c5a476f47e94002265b",
+      "old_failure": null,
+      "old_new_max_difference_if_old_valid": 2.4702462297909733e-15,
+      "new_minimum_spectrum": 0.005704669448170311,
+      "new_period_mass": 1.0,
+      "extension": {
+        "order": 23,
+        "diagonal_mixture": 1.4877556515718101e-09,
+        "minimum_input_eigenvalue": -1.3877556536364514e-09,
+        "linear_solve_residual": 3.6506759942727966e-16,
+        "innovation_variance": 1.057584596037521e-09,
+        "maximum_companion_root_modulus": 0.9999999999964613,
+        "maximum_reflection_modulus": 0.9999998747508072,
+        "coefficient_precision_decimal_digits": 70,
+        "choice": "Schur-disk center; maximum-entropy AR continuation",
+        "not_unique_physical_extension": true,
+        "numerical_revision": "Levinson 70 digits + Schur + no native CPU complex dot",
+        "spectrum_or_root_clipping": false
+      },
+      "denoising": {
+        "iterations": 61,
+        "relative_change": 8.60599528910089e-11,
+        "minimum_eigenvalue": -1.3877556536364514e-09,
+        "toeplitz_residual": 4.440892098500626e-16,
+        "norm": 1.0,
+        "global_nearest_point_claimed": false
+      }
+    },
+    {
+      "raw_file": "L6_U7_step0.125_B10000000_seed8100_branch1.json",
+      "raw_sha256": "1a07f98b2cced4bbd2048207ed5e722a85c420fb6a1948717022271582fdf92b",
+      "old_failure": null,
+      "old_new_max_difference_if_old_valid": 2.631228568361621e-14,
+      "new_minimum_spectrum": 0.004980167090767951,
+      "new_period_mass": 0.9999999999999999,
+      "extension": {
+        "order": 23,
+        "diagonal_mixture": 1.5702302320639288e-09,
+        "minimum_input_eigenvalue": -1.4702302343725286e-09,
+        "linear_solve_residual": 3.775166431889533e-16,
+        "innovation_variance": 2.3605939369297663e-09,
+        "maximum_companion_root_modulus": 0.9999999999504416,
+        "maximum_reflection_modulus": 0.999997993081687,
+        "coefficient_precision_decimal_digits": 70,
+        "choice": "Schur-disk center; maximum-entropy AR continuation",
+        "not_unique_physical_extension": true,
+        "numerical_revision": "Levinson 70 digits + Schur + no native CPU complex dot",
+        "spectrum_or_root_clipping": false
+      },
+      "denoising": {
+        "iterations": 55,
+        "relative_change": 9.286115990436902e-11,
+        "minimum_eigenvalue": -1.4702302343725286e-09,
+        "toeplitz_residual": 2.2887833992611187e-16,
+        "norm": 1.0,
+        "global_nearest_point_claimed": false
+      }
+    }
+  ],
+  "torch": "2.5.0a0+872d972e41.nv24.08",
+  "device": "cpu",
+  "revision": "8c-schur-cpu-dot-2",
+  "arithmetic": {
+    "status": "PASS",
+    "device": "cpu",
+    "dot_records": [
+      {
+        "n": 1,
+        "native_dot_error": 0.9806258144341208,
+        "native_vdot_error": 0.9806258144341208,
+        "native_vector_matmul_error": 0.9806258144341208,
+        "safe_dot_error": 0.0,
+        "safe_vdot_error": 0.0,
+        "elementwise_sum_error": 0.0,
+        "safe_conjugate_strided_error": 0.0
+      },
+      {
+        "n": 2,
+        "native_dot_error": 1.456730818623868,
+        "native_vdot_error": 0.6877956427921942,
+        "native_vector_matmul_error": 1.456730818623868,
+        "safe_dot_error": 0.0,
+        "safe_vdot_error": 0.0,
+        "elementwise_sum_error": 0.0,
+        "safe_conjugate_strided_error": 0.0
+      },
+      {
+        "n": 4,
+        "native_dot_error": 1.1254154161224639,
+        "native_vdot_error": 1.9059173791454804,
+        "native_vector_matmul_error": 1.1254154161224639,
+        "safe_dot_error": 1.5700924586837752e-16,
+        "safe_vdot_error": 0.0,
+        "elementwise_sum_error": 0.0,
+        "safe_conjugate_strided_error": 0.0
+      },
+      {
+        "n": 7,
+        "native_dot_error": 2.7551866714666957,
+        "native_vdot_error": 2.9768458900515036,
+        "native_vector_matmul_error": 2.7551866714666957,
+        "safe_dot_error": 4.440892098500626e-16,
+        "safe_vdot_error": 2.220446049250313e-16,
+        "elementwise_sum_error": 4.440892098500626e-16,
+        "safe_conjugate_strided_error": 2.220446049250313e-16
+      },
+      {
+        "n": 15,
+        "native_dot_error": 2.024474419118327,
+        "native_vdot_error": 2.0373980781790864,
+        "native_vector_matmul_error": 2.024474419118327,
+        "safe_dot_error": 8.881784197001252e-16,
+        "safe_vdot_error": 2.482534153247273e-16,
+        "elementwise_sum_error": 3.1401849173675503e-16,
+        "safe_conjugate_strided_error": 2.482534153247273e-16
+      },
+      {
+        "n": 16,
+        "native_dot_error": 1.7720010829646082,
+        "native_vdot_error": 1.7044822288680441,
+        "native_vector_matmul_error": 1.7720010829646082,
+        "safe_dot_error": 8.881784197001252e-16,
+        "safe_vdot_error": 2.482534153247273e-16,
+        "elementwise_sum_error": 3.1401849173675503e-16,
+        "safe_conjugate_strided_error": 2.482534153247273e-16
+      },
+      {
+        "n": 23,
+        "native_dot_error": 0.44103941134996655,
+        "native_vdot_error": 0.9879554843203553,
+        "native_vector_matmul_error": 0.44103941134996655,
+        "safe_dot_error": 4.577566798522237e-16,
+        "safe_vdot_error": 3.554447978966673e-16,
+        "elementwise_sum_error": 2.482534153247273e-16,
+        "safe_conjugate_strided_error": 3.554447978966673e-16
+      },
+      {
+        "n": 24,
+        "native_dot_error": 1.5043054169622652,
+        "native_vdot_error": 1.2358275998440855,
+        "native_vector_matmul_error": 1.5043054169622652,
+        "safe_dot_error": 4.002966042486721e-16,
+        "safe_vdot_error": 8.886119947416683e-16,
+        "elementwise_sum_error": 6.661338147750939e-16,
+        "safe_conjugate_strided_error": 8.886119947416683e-16
+      },
+      {
+        "n": 40,
+        "native_dot_error": 0.5973604615267374,
+        "native_vdot_error": 1.4194394466821556,
+        "native_vector_matmul_error": 0.5973604615267374,
+        "safe_dot_error": 8.005932084973442e-16,
+        "safe_vdot_error": 5.978733960281817e-16,
+        "elementwise_sum_error": 4.742874840267547e-16,
+        "safe_conjugate_strided_error": 5.978733960281817e-16
+      },
+      {
+        "n": 64,
+        "native_dot_error": 1.041281971611833,
+        "native_vdot_error": 1.0059156072203987,
+        "native_vector_matmul_error": 1.041281971611833,
+        "safe_dot_error": 2.9227820413647035e-15,
+        "safe_vdot_error": 9.155133597044475e-16,
+        "elementwise_sum_error": 9.155133597044475e-16,
+        "safe_conjugate_strided_error": 9.155133597044475e-16
+      }
+    ],
+    "native_dot_max_error": 2.7551866714666957,
+    "real_dot_error": 4.440892098500626e-16,
+    "matrix_product_max_errors": {
+      "mm": 1.1102230246251565e-15,
+      "mv": 9.155133597044475e-16,
+      "vm": 9.485749680535094e-16
+    },
+    "eigen_residual": 5.0011692717961465e-15,
+    "eigen_orthogonality": 5.55111724963656e-16,
+    "complex_vs_real_block_solve_error": 3.608224830031759e-16,
+    "gradient_max_relative_error": 5.007056669953649e-10,
+    "not_exhaustive_environment_certification": true
+  },
+  "local_adapters": {
+    "scope": "module-local CPU complex dot/vdot; vector @ only in rival self-test",
+    "global_torch_modified": false,
+    "project_files_modified": false,
+    "selftest_original_source_sha256": "0ae7e1f8b7068d0f84aadc1ea0cfc5b94103f86f0b7e1bcd524f7110bdf75c4c",
+    "selftest_adapted_ast_sha256": "bd11728b93ff35f03945d41f74a2e5f8323b676f382a7408b16cee6ccfe6846d",
+    "test_assertions_unchanged": true,
+    "assertion_count": 8
+  },
+  "saved_fit_audit": {
+    "status": "PASS",
+    "model_records": 120,
+    "files": 24,
+    "maximum_forward_difference": 7.771561172376096e-16,
+    "maximum_recorded_loss_difference": 1.951563910473908e-18,
+    "records": [
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r10_s0.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 1.6653345369377348e-16,
+        "python_vs_recorded_loss_max_error": 6.098637220230962e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r10_s0.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 1.4094628242311558e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r10_s0.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 9.75781955236954e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r10_s0.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 1.6653345369377348e-16,
+        "python_vs_recorded_loss_max_error": 1.7618285302889447e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r10_s0.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 2.220446049250313e-16,
+        "python_vs_recorded_loss_max_error": 8.673617379884035e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r10_s1.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 2.220446049250313e-16,
+        "python_vs_recorded_loss_max_error": 1.7076184216646695e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r10_s1.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 1.6653345369377348e-16,
+        "python_vs_recorded_loss_max_error": 1.951563910473908e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r10_s1.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 2.220446049250313e-16,
+        "python_vs_recorded_loss_max_error": 1.0299920638612292e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r10_s1.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 5.963111948670274e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r10_s1.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 1.1926223897340549e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r14_s0.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 2.168404344971009e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r14_s0.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 1.6653345369377348e-16,
+        "python_vs_recorded_loss_max_error": 6.505213034913027e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r14_s0.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 1.6653345369377348e-16,
+        "python_vs_recorded_loss_max_error": 1.6263032587282567e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r14_s0.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 1.6653345369377348e-16,
+        "python_vs_recorded_loss_max_error": 1.1655173354219173e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r14_s0.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 1.6653345369377348e-16,
+        "python_vs_recorded_loss_max_error": 1.951563910473908e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r14_s1.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 1.6653345369377348e-16,
+        "python_vs_recorded_loss_max_error": 7.589415207398531e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r14_s1.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 1.6653345369377348e-16,
+        "python_vs_recorded_loss_max_error": 1.463672932855431e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r14_s1.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 1.0842021724855044e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r14_s1.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 1.6653345369377348e-16,
+        "python_vs_recorded_loss_max_error": 9.215718466126788e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r14_s1.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 2.220446049250313e-16,
+        "python_vs_recorded_loss_max_error": 1.3552527156068805e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r6_s0.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 1.3877787807814457e-16,
+        "python_vs_recorded_loss_max_error": 4.336808689942018e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r6_s0.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 2.220446049250313e-16,
+        "python_vs_recorded_loss_max_error": 3.2526065174565133e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r6_s0.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 7.589415207398531e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r6_s0.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 4.336808689942018e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r6_s0.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 8.326672684688674e-17,
+        "python_vs_recorded_loss_max_error": 1.0842021724855044e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r6_s1.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 2.168404344971009e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r6_s1.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 6.505213034913027e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r6_s1.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 9.75781955236954e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r6_s1.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 7.589415207398531e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_diag_r6_s1.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 4.336808689942018e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r10_s0.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 1.6653345369377348e-16,
+        "python_vs_recorded_loss_max_error": 3.7947076036992655e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r10_s0.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 4.996003610813204e-16,
+        "python_vs_recorded_loss_max_error": 1.0570971181733668e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r10_s0.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 4.996003610813204e-16,
+        "python_vs_recorded_loss_max_error": 1.6263032587282567e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r10_s0.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 6.661338147750939e-16,
+        "python_vs_recorded_loss_max_error": 7.047314121155779e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r10_s0.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 4.996003610813204e-16,
+        "python_vs_recorded_loss_max_error": 1.1384122811097797e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r10_s1.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 1.6653345369377348e-16,
+        "python_vs_recorded_loss_max_error": 1.7618285302889447e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r10_s1.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 4.440892098500626e-16,
+        "python_vs_recorded_loss_max_error": 6.2341624917916505e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r10_s1.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 4.996003610813204e-16,
+        "python_vs_recorded_loss_max_error": 5.963111948670274e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r10_s1.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 2.7755575615628914e-16,
+        "python_vs_recorded_loss_max_error": 8.538092108323347e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r10_s1.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 6.661338147750939e-16,
+        "python_vs_recorded_loss_max_error": 4.87890977618477e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r14_s0.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 1.6653345369377348e-16,
+        "python_vs_recorded_loss_max_error": 5.692061405548898e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r14_s0.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 7.216449660063518e-16,
+        "python_vs_recorded_loss_max_error": 8.876905287225068e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r14_s0.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 6.106226635438361e-16,
+        "python_vs_recorded_loss_max_error": 5.89534931288993e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r14_s0.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 4.718447854656915e-16,
+        "python_vs_recorded_loss_max_error": 4.87890977618477e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r14_s0.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 4.3021142204224816e-16,
+        "python_vs_recorded_loss_max_error": 4.0657581468206416e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r14_s1.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 1.6653345369377348e-16,
+        "python_vs_recorded_loss_max_error": 1.1926223897340549e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r14_s1.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 6.106226635438361e-16,
+        "python_vs_recorded_loss_max_error": 4.87890977618477e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r14_s1.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 3.2612801348363973e-16,
+        "python_vs_recorded_loss_max_error": 8.131516293641283e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r14_s1.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 6.106226635438361e-16,
+        "python_vs_recorded_loss_max_error": 4.472333961502706e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r14_s1.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 4.510281037539698e-16,
+        "python_vs_recorded_loss_max_error": 7.657177843178875e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r6_s0.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 1.734723475976807e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r6_s0.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 4.440892098500626e-16,
+        "python_vs_recorded_loss_max_error": 5.421010862427522e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r6_s0.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 2.7755575615628914e-16,
+        "python_vs_recorded_loss_max_error": 2.168404344971009e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r6_s0.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 3.3306690738754696e-16,
+        "python_vs_recorded_loss_max_error": 3.2526065174565133e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r6_s0.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 2.7755575615628914e-16,
+        "python_vs_recorded_loss_max_error": 4.87890977618477e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r6_s1.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 9.75781955236954e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r6_s1.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 1.734723475976807e-16,
+        "python_vs_recorded_loss_max_error": 1.4094628242311558e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r6_s1.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 3.608224830031759e-16,
+        "python_vs_recorded_loss_max_error": 8.673617379884035e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r6_s1.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 3.608224830031759e-16,
+        "python_vs_recorded_loss_max_error": 5.421010862427522e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch0_general_r6_s1.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 3.885780586188048e-16,
+        "python_vs_recorded_loss_max_error": 5.421010862427522e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r10_s0.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 2.220446049250313e-16,
+        "python_vs_recorded_loss_max_error": 1.4094628242311558e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r10_s0.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 2.710505431213761e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r10_s0.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 1.6263032587282567e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r10_s0.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 9.215718466126788e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r10_s0.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 1.6653345369377348e-16,
+        "python_vs_recorded_loss_max_error": 7.047314121155779e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r10_s1.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 1.6653345369377348e-16,
+        "python_vs_recorded_loss_max_error": 5.421010862427522e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r10_s1.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 1.6653345369377348e-16,
+        "python_vs_recorded_loss_max_error": 4.0657581468206416e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r10_s1.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 2.220446049250313e-16,
+        "python_vs_recorded_loss_max_error": 7.453889935837843e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r10_s1.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 1.2468324983583301e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r10_s1.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 8.131516293641283e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r14_s0.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 1.6653345369377348e-16,
+        "python_vs_recorded_loss_max_error": 1.3010426069826053e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r14_s0.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 2.220446049250313e-16,
+        "python_vs_recorded_loss_max_error": 4.87890977618477e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r14_s0.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 1.6653345369377348e-16,
+        "python_vs_recorded_loss_max_error": 4.87890977618477e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r14_s0.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 1.6653345369377348e-16,
+        "python_vs_recorded_loss_max_error": 1.2468324983583301e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r14_s0.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 2.220446049250313e-16,
+        "python_vs_recorded_loss_max_error": 1.2468324983583301e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r14_s1.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 2.220446049250313e-16,
+        "python_vs_recorded_loss_max_error": 6.505213034913027e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r14_s1.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 2.220446049250313e-16,
+        "python_vs_recorded_loss_max_error": 7.589415207398531e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r14_s1.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 2.220446049250313e-16,
+        "python_vs_recorded_loss_max_error": 1.3552527156068805e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r14_s1.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 4.87890977618477e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r14_s1.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 2.220446049250313e-16,
+        "python_vs_recorded_loss_max_error": 1.6127507315721878e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r6_s0.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 3.3306690738754696e-16,
+        "python_vs_recorded_loss_max_error": 8.673617379884035e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r6_s0.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 3.2526065174565133e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r6_s0.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 6.245004513516506e-17,
+        "python_vs_recorded_loss_max_error": 3.2526065174565133e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r6_s0.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 2.168404344971009e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r6_s0.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 6.505213034913027e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r6_s1.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 4.336808689942018e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r6_s1.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 2.220446049250313e-16,
+        "python_vs_recorded_loss_max_error": 1.0842021724855044e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r6_s1.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 1.3010426069826053e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r6_s1.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 4.336808689942018e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_diag_r6_s1.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 1.3010426069826053e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r10_s0.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 1.6653345369377348e-16,
+        "python_vs_recorded_loss_max_error": 2.710505431213761e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r10_s0.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 7.771561172376096e-16,
+        "python_vs_recorded_loss_max_error": 5.827586677109586e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r10_s0.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 3.3306690738754696e-16,
+        "python_vs_recorded_loss_max_error": 6.369687763352339e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r10_s0.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 4.0939474033052647e-16,
+        "python_vs_recorded_loss_max_error": 8.944667923005412e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r10_s0.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 5.551115123125783e-16,
+        "python_vs_recorded_loss_max_error": 1.7618285302889447e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r10_s1.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 2.220446049250313e-16,
+        "python_vs_recorded_loss_max_error": 8.944667923005412e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r10_s1.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 6.661338147750939e-16,
+        "python_vs_recorded_loss_max_error": 6.2341624917916505e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r10_s1.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 4.996003610813204e-16,
+        "python_vs_recorded_loss_max_error": 1.0706496453294356e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r10_s1.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 3.0531133177191805e-16,
+        "python_vs_recorded_loss_max_error": 5.014435047745458e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r10_s1.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 4.354155924701786e-16,
+        "python_vs_recorded_loss_max_error": 9.75781955236954e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r14_s0.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 2.220446049250313e-16,
+        "python_vs_recorded_loss_max_error": 4.87890977618477e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r14_s0.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 5.551115123125783e-16,
+        "python_vs_recorded_loss_max_error": 7.995991022080595e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r14_s0.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 4.996003610813204e-16,
+        "python_vs_recorded_loss_max_error": 2.168404344971009e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r14_s0.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 5.898059818321144e-16,
+        "python_vs_recorded_loss_max_error": 6.708500942254059e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r14_s0.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 6.938893903907228e-16,
+        "python_vs_recorded_loss_max_error": 1.0842021724855044e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r14_s1.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 2.220446049250313e-16,
+        "python_vs_recorded_loss_max_error": 1.0842021724855044e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r14_s1.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 7.771561172376096e-16,
+        "python_vs_recorded_loss_max_error": 8.944667923005412e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r14_s1.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 6.661338147750939e-16,
+        "python_vs_recorded_loss_max_error": 1.1587410718438829e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r14_s1.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 6.661338147750939e-16,
+        "python_vs_recorded_loss_max_error": 1.1926223897340549e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r14_s1.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 4.996003610813204e-16,
+        "python_vs_recorded_loss_max_error": 6.708500942254059e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r6_s0.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 1.6653345369377348e-16,
+        "python_vs_recorded_loss_max_error": 1.4094628242311558e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r6_s0.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 3.885780586188048e-16,
+        "python_vs_recorded_loss_max_error": 0.0
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r6_s0.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 3.7470027081099033e-16,
+        "python_vs_recorded_loss_max_error": 1.1926223897340549e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r6_s0.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 4.996003610813204e-16,
+        "python_vs_recorded_loss_max_error": 5.421010862427522e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r6_s0.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 3.903127820947816e-16,
+        "python_vs_recorded_loss_max_error": 1.3010426069826053e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r6_s1.json",
+        "nominal_iterations": 0,
+        "python_vs_torch_forward_max_error": 1.1102230246251565e-16,
+        "python_vs_recorded_loss_max_error": 5.421010862427522e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r6_s1.json",
+        "nominal_iterations": 100,
+        "python_vs_torch_forward_max_error": 6.106226635438361e-16,
+        "python_vs_recorded_loss_max_error": 3.2526065174565133e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r6_s1.json",
+        "nominal_iterations": 350,
+        "python_vs_torch_forward_max_error": 2.7755575615628914e-16,
+        "python_vs_recorded_loss_max_error": 3.2526065174565133e-19
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r6_s1.json",
+        "nominal_iterations": 700,
+        "python_vs_torch_forward_max_error": 2.220446049250313e-16,
+        "python_vs_recorded_loss_max_error": 1.5178830414797062e-18
+      },
+      {
+        "file": "L6_U7_step0.125_B10000000_seed8100_branch1_general_r6_s1.json",
+        "nominal_iterations": 1400,
+        "python_vs_torch_forward_max_error": 2.671474153004283e-16,
+        "python_vs_recorded_loss_max_error": 4.336808689942018e-19
+      }
+    ],
+    "scope": "forward/loss integrity; does not prove optimizer convergence or all past gradients"
+  }
+}

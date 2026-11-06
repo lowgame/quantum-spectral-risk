@@ -1,0 +1,170 @@
+{
+  "status": "PASS",
+  "scope": "release integrity and recorded-metric checks; no new simulation",
+  "archives": [
+    {
+      "archive": "L6_mechanism.zip",
+      "verified_members": 4810,
+      "sha256": "020a7052e41e44f2b92a7be703878c63fcc589b07c50aed7b97973a42f40f226",
+      "crc": "PASS",
+      "conditions": 160,
+      "result_rows": 800
+    },
+    {
+      "archive": "L8_validation.zip",
+      "verified_members": 2331,
+      "sha256": "eb58d4549afbaff78d4d7bce52a5e31e9847793e92de435264777e62838b3c4e",
+      "crc": "PASS",
+      "conditions": 80,
+      "result_rows": 480
+    },
+    {
+      "archive": "exploratory_latent_L6.zip",
+      "verified_members": 373,
+      "sha256": "4f62c823855db9c1f42a210c86b06c327283def6500b90b6c384f6e8f1374d95",
+      "crc": "PASS"
+    },
+    {
+      "archive": "exploratory_optimization_L6.zip",
+      "verified_members": 365,
+      "sha256": "2025270d11532859945ddf125dd967daaf7ecd49f58c497ebd6b4eb0a97b1c3d",
+      "crc": "PASS"
+    },
+    {
+      "archive": "exploratory_allocation_L6.zip",
+      "verified_members": 7,
+      "sha256": "ecbde2331970add8d859d0a01f26ef9f274839dc8aebd30d51d308a36dc0dea1",
+      "crc": "PASS"
+    }
+  ],
+  "l8_physical_medians_percent": [
+    {
+      "step": 0.125,
+      "budget": 100000000,
+      "method": "raw_cutoff",
+      "repeats": 20,
+      "computed": 24.52312022176402,
+      "printed": 24.523
+    },
+    {
+      "step": 0.125,
+      "budget": 100000000,
+      "method": "Hlag_cutoff",
+      "repeats": 20,
+      "computed": 21.88360425860677,
+      "printed": 21.884
+    },
+    {
+      "step": 0.125,
+      "budget": 100000000,
+      "method": "diagonal_cv",
+      "repeats": 20,
+      "computed": 17.723666721347016,
+      "printed": 17.724
+    },
+    {
+      "step": 0.125,
+      "budget": 100000000,
+      "method": "general_cv_including_diagonal",
+      "repeats": 20,
+      "computed": 17.723666721347016,
+      "printed": 17.724
+    },
+    {
+      "step": 0.125,
+      "budget": 1000000000,
+      "method": "raw_cutoff",
+      "repeats": 20,
+      "computed": 11.205106847061101,
+      "printed": 11.205
+    },
+    {
+      "step": 0.125,
+      "budget": 1000000000,
+      "method": "Hlag_cutoff",
+      "repeats": 20,
+      "computed": 9.620104200026141,
+      "printed": 9.62
+    },
+    {
+      "step": 0.125,
+      "budget": 1000000000,
+      "method": "diagonal_cv",
+      "repeats": 20,
+      "computed": 8.400163758118312,
+      "printed": 8.4
+    },
+    {
+      "step": 0.125,
+      "budget": 1000000000,
+      "method": "general_cv_including_diagonal",
+      "repeats": 20,
+      "computed": 8.400163758118298,
+      "printed": 8.4
+    },
+    {
+      "step": 0.25,
+      "budget": 100000000,
+      "method": "raw_cutoff",
+      "repeats": 20,
+      "computed": 28.070260022729098,
+      "printed": 28.07
+    },
+    {
+      "step": 0.25,
+      "budget": 100000000,
+      "method": "Hlag_cutoff",
+      "repeats": 20,
+      "computed": 30.239861118595517,
+      "printed": 30.24
+    },
+    {
+      "step": 0.25,
+      "budget": 100000000,
+      "method": "diagonal_cv",
+      "repeats": 20,
+      "computed": 29.514238090575017,
+      "printed": 29.514
+    },
+    {
+      "step": 0.25,
+      "budget": 100000000,
+      "method": "general_cv_including_diagonal",
+      "repeats": 20,
+      "computed": 29.874467459368837,
+      "printed": 29.874
+    },
+    {
+      "step": 0.25,
+      "budget": 1000000000,
+      "method": "raw_cutoff",
+      "repeats": 20,
+      "computed": 17.537749638510324,
+      "printed": 17.538
+    },
+    {
+      "step": 0.25,
+      "budget": 1000000000,
+      "method": "Hlag_cutoff",
+      "repeats": 20,
+      "computed": 21.658485542893136,
+      "printed": 21.658
+    },
+    {
+      "step": 0.25,
+      "budget": 1000000000,
+      "method": "diagonal_cv",
+      "repeats": 20,
+      "computed": 27.93728356292601,
+      "printed": 27.937
+    },
+    {
+      "step": 0.25,
+      "budget": 1000000000,
+      "method": "general_cv_including_diagonal",
+      "repeats": 20,
+      "computed": 23.810920783865274,
+      "printed": 23.811
+    }
+  ]
+}
